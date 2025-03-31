@@ -16,3 +16,5 @@ for i in range(len(string) - 1, -1, -1):
         break
 
 # print the result
+if index != -1:
+    print(f"The first location of '{char}' in the string '{string}' from the last character is: {index}.")
