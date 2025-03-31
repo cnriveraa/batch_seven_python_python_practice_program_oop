@@ -7,5 +7,7 @@ string = input("Enter a string: ")
 char = input("Enter a character to find its first location in the string: ")
 
 # initialize a variable to store the first location of the character in the string
+first_location = -1
+
 # loop through the string to find the first location of the character
 # check if the character was found in the string
