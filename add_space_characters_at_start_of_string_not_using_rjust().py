@@ -4,5 +4,7 @@
 string = input("Enter a string: ")
 
 # ask user to input the number of characters
+number_of_characters = int(input("Enter the number of characters: "))
+
 # check if the length of the string is less than the number of characters
 # print the new string
