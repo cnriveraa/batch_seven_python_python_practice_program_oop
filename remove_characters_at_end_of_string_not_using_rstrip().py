@@ -4,4 +4,6 @@
 string = input("Enter a string: ")
 
 # remove space at end of string
+result = ' '.join(string.split())
+
 # print the result
