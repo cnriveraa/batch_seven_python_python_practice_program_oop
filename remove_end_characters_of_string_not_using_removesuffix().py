@@ -4,5 +4,7 @@
 string = input("Enter a string: ")
 
 # ask user to enter a suffix
+suffix = input("Enter a suffx to be removed: ")
+
 # check if the string ends with the suffix
 # print the new string
