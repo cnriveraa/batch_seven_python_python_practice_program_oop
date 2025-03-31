@@ -12,3 +12,7 @@ for char in string:
         break
 
 # print the result
+if is_lowercase:
+    print("All characters are in lowercase.")
+else:
+    print("Not all characters are in lowercase.")
