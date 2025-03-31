@@ -15,3 +15,4 @@ else:
     new_string = string
 
 # print the new string
+print("Right-justified string:", new_string)
