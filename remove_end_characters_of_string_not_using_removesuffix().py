@@ -7,4 +7,9 @@ string = input("Enter a string: ")
 suffix = input("Enter a suffx to be removed: ")
 
 # check if the string ends with the suffix
+if string.endswith(suffix):
+    new_string = string[:len(string) - len(suffix)]  # remove the suffix from the string
+else: 
+    new_string = string
+
 # print the new string
