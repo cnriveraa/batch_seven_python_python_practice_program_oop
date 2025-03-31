@@ -10,4 +10,9 @@ char = input("Enter a character to find its first location in the string: ")
 first_location = -1
 
 # loop through the string to find the first location of the character
+for i in range(len(string)):
+    if string[i] == char:   # check if the character is found in the string
+        first_location = i  # if found, store the location and break the loop
+        break
+
 # check if the character was found in the string
