@@ -7,3 +7,7 @@ string = input("Enter a string: ")
 prefix = input("Enter a prefix: ")
 
 # check if the string starts with the prefix
+if string.find(prefix) == 0:
+    print(f"{string} starts with {prefix}.")
+else: 
+    print(f"{string} does not start with {prefix}.")
