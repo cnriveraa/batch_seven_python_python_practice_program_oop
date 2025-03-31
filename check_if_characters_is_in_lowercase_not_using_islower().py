@@ -4,4 +4,11 @@
 string = input("Enter a string: ")
 
 # check if all characters are in lowercase
+is_lowercase = True
+
+for char in string:
+    if char.isalpha() and not ('a' <= char <= 'z'):
+        is_lowercase = False
+        break
+
 # print the result
