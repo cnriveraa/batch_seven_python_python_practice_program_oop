@@ -4,6 +4,8 @@
 string = input("Enter a string: ")
 
 # ask user to input a character to count
+char = input("Enter a character to count: ")
+
 # initialize a variable to count the number of times the character appears in the string
 # loop through each character in the string
 # print the count
