@@ -7,5 +7,7 @@ string = input("Enter a string: ")
 char = input("Enter a character to find: ")
 
 # initialize the index to -1
+index = -1
+
 # loop through the string in reverse order
 # print the result
