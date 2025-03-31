@@ -15,3 +15,4 @@ for i in string:
         count += 1
 
 # print the count
+print(f"The character '{char}' appears {count} times in the string '{string}'.")
