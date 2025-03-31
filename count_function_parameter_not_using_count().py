@@ -10,4 +10,8 @@ char = input("Enter a character to count: ")
 count = 0
 
 # loop through each character in the string
+for i in string:
+    if i == char: # if the character is equal to the character to count, increment the count
+        count += 1
+
 # print the count
