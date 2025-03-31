@@ -14,3 +14,4 @@ for char in string:
         result += char    # if not lowercase, keep the character as it is
 
 # print the result
+print("Uppercase string:", result)
