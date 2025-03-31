@@ -16,3 +16,5 @@ for i in range(len(string)):
         break
 
 # check if the character was found in the string
+if first_location != -1:
+    print(f"The first location of '{char}' in the string is: {first_location}.")
