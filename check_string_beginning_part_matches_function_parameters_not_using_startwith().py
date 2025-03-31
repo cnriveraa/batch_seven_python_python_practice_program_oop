@@ -4,4 +4,6 @@
 string = input("Enter a string: ")
 
 # ask user to input a prefix
+prefix = input("Enter a prefix: ")
+
 # check if the string starts with the prefix
