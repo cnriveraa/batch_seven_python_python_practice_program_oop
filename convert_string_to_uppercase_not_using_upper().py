@@ -4,5 +4,7 @@
 string = input("Enter a string: ")
 
 # create an empty string to store the result
+result = ""
+
 # iterate through each character in the string
 # print the result
