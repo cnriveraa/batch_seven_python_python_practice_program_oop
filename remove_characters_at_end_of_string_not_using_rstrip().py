@@ -7,3 +7,4 @@ string = input("Enter a string: ")
 result = ' '.join(string.split())
 
 # print the result
+print("String after removing space at end of string:", result)
