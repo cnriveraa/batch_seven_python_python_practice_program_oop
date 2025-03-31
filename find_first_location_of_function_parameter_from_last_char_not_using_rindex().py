@@ -4,6 +4,8 @@
 string = input("Enter a string: ")
 
 # ask user to input a character to find
+char = input("Enter a character to find: ")
+
 # initialize the index to -1
 # loop through the string in reverse order
 # print the result
