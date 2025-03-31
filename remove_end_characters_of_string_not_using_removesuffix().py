@@ -13,3 +13,4 @@ else:
     new_string = string
 
 # print the new string
+print("String after removing the suffix:", new_string)
