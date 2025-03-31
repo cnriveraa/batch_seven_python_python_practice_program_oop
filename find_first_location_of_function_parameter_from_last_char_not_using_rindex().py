@@ -10,4 +10,9 @@ char = input("Enter a character to find: ")
 index = -1
 
 # loop through the string in reverse order
+for i in range(len(string) - 1, -1, -1):
+    if string[i] == char:  # check if the character is found
+        index = i
+        break
+
 # print the result
