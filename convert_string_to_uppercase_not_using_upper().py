@@ -7,4 +7,10 @@ string = input("Enter a string: ")
 result = ""
 
 # iterate through each character in the string
+for char in string:
+    if 'a' <= char <= 'z':             # check if the character is a lowercase letter
+        result += chr(ord(char) - 32)  # convert it to uppercase by subtracting 32 from its ASCII value
+    else:
+        result += char    # if not lowercase, keep the character as it is
+
 # print the result
